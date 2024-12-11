@@ -1,0 +1,16 @@
+*{
+    outline: 1px solid green;
+}
+.laterale{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    
+}
+.principale{
+    display: flex;
+    flex-direction: row;
+}
+.centrale{
+    
+}
