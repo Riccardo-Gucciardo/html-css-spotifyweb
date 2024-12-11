@@ -1,16 +1,21 @@
 *{
     outline: 1px solid green;
+    margin: 0;
+    padding: 0;
+    
 }
-.laterale{
+.main{
     height: 100vh;
     display: flex;
     flex-direction: row;
+    width: 20%;
+}
+.footer{
+    height: 80px;
     
 }
-.principale{
-    display: flex;
-    flex-direction: row;
+.info-laterale{
+    height: 15%;
+    width: 128px;
 }
-.centrale{
-    
-}
+
