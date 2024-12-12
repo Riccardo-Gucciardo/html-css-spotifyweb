@@ -4,3 +4,31 @@
     padding: 0;
     
 }
+.all{
+    display: flex;
+    flex-direction: row;
+}
+.side-bar{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+.centrale{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    justify-content: end;
+    position: sticky;
+}
+.footer{
+    height: 20vh;
+    position: sticky;
+}
+.main{
+    overflow-y: auto;
+    flex-basis: 90%;
+}
+
+
