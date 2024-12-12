@@ -2,16 +2,21 @@
     outline: 1px solid green;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     
+}
+img{
+    width: 100%;
 }
 .all{
     display: flex;
     flex-direction: row;
+    height: 90vh;
 }
 .side-bar{
-    height: 80vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 .centrale{
     display: flex;
@@ -21,14 +26,21 @@
     display: flex;
     justify-content: end;
     position: sticky;
+    padding: 10px;
 }
 .footer{
-    height: 20vh;
-    position: sticky;
+    height: 10vh;
+
 }
 .main{
     overflow-y: auto;
-    flex-basis: 90%;
+    flex-basis: 100%;
+    
+}
+.a{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
 }
 
 
