@@ -2,6 +2,12 @@
     .hidden{
         display: none;
     }
+    .utent-utility div{
+        display: none;
+    }
+    .aggiungi-playlist{
+        display: none;
+    }
     
 
 
@@ -12,13 +18,16 @@
         font-size: 1.5rem;
     }
     .side-bar{
-        flex-basis: 15%;
+        flex-basis: 35%;
     }
     .hidden{
         display: flex;
     }
     .hidden-0{
         display: none;
+    }
+    .utent-utility div{
+        display: flex;
     }
     
 }
